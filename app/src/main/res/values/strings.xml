@@ -1,0 +1,42 @@
+
+<resources>
+    <string name="app_name">BitCoin Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="coin_name">Bitcoin</string>
+    <string name="nav_list_price">Price</string>
+    <string name="nav_list_graphs">Graphs</string>
+    <string name="nav_list_blocks">Blocks</string>
+    <string name="nav_list_wallet">Wallet</string>
+    <string name="price_value">Current Price</string>
+    <string name="price_fragment_title">BitCoin Current Price</string>
+    <string name="graph_fragment_title">BitCoin Graphs</string>
+    <string name="one_day_button_text">1-Day</string>
+    <string name="five_day_button_text">5-Day</string>
+    <string name="one_month_button_text">1-Month</string>
+    <string name="wallet_button_text">Check</string>
+    <string name="wallet_hint">Enter Wallet Address</string>
+    <string name="saved_wallet_text">Saved Addresses</string>
+    <string name="block_button_text">Search</string>
+    <string name="block_hint">Please Enter Block Number</string>
+    <string name="searchBlock">Search</string>
+    <string name="previousBlock">Prev Block</string>
+    <string name="nextBlock">Next Block</string>
+    <string name="nb_title_text">nb</string>
+    <string name="hash_title_text">hash</string>
+    <string name="conf_title_text">confirmations</string>
+    <string name="size_title_text">size</string>
+    <string name="address_title_text">Wallet Address</string>
+    <string name="balance_title_text">Current Balance</string>
+    <string name="block_fragment_title">BitCoin Blocks</string>
+    <string name="wallet_fragment_title">BitCoin Wallet Balance</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_title">BitCoin Options</string>
+
+    <string-array name="navList">
+        <item>Price</item>
+        <item>Graphs</item>
+        <item>Blocks</item>
+        <item>Wallet</item>
+    </string-array>
+</resources>

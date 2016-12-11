@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BitCoin Dashboard</string>
+    <string name="navigation_drawer_open">Abrir el Cajón de Navegación</string>
+    <string name="navigation_drawer_close">Cajón de Navegación Cercano</string>
+    <string name="coin_name">Bitcoin</string>
+    <string name="nav_list_price">Precio</string>
+    <string name="nav_list_graphs">Gráficos</string>
+    <string name="nav_list_blocks">Bloque</string>
+    <string name="nav_list_wallet">Billetera</string>
+    <string name="price_value">Precio Actual</string>
+    <string name="price_fragment_title">BitCoin Precio Actual</string>
+    <string name="graph_fragment_title">BitCoin Gráficos</string>
+    <string name="one_day_button_text">1-Día</string>
+    <string name="five_day_button_text">5-Día</string>
+    <string name="one_month_button_text">1-Mes</string>
+    <string name="wallet_button_text">Comprobar</string>
+    <string name="wallet_hint">Ingresar dirección de Wallet</string>
+    <string name="block_hint">Introduzca el número de bloque</string>
+    <string name="block_button_text">Buscar</string>
+    <string name="searchBlock">Buscar</string>
+    <string name="previousBlock">Bloque Anterior</string>
+    <string name="nextBlock">Bloque Siguiente</string>
+    <string name="nb_title_text">nb</string>
+    <string name="hash_title_text">picadillo</string>
+    <string name="conf_title_text">confirmaciones</string>
+    <string name="size_title_text">tamaño</string>
+    <string name="address_title_text">Dirección de Billetera</string>
+    <string name="balance_title_text">Saldo Actual</string>
+    <string name="block_fragment_title">BitCoin Bloque</string>
+    <string name="wallet_fragment_title">Equilibrio Billetera Bitcoin</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="navigation_drawer_title">Opciones de Bitcoin</string>
+
+    <string-array name="navList">
+        <item>Precio</item>
+        <item>Gráficos</item>
+        <item>Bloque</item>
+        <item>Billetera</item>
+    </string-array>
+</resources>

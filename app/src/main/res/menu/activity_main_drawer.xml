@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_price"
+            android:icon="@drawable/coins"
+            android:title="@string/nav_list_price" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/graph"
+            android:title="@string/nav_list_graphs" />
+        <item
+            android:id="@+id/nav_blocks"
+            android:icon="@drawable/block"
+            android:title="@string/nav_list_blocks" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/money"
+            android:title="@string/nav_list_wallet" />
+    </group>
+
+</menu>

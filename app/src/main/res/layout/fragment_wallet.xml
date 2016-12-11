@@ -1,0 +1,95 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edu.temple.finalproject.WalletFragment">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/wallet_hint"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="13dp"
+            android:id="@+id/walletAddressText"
+            android:layout_alignEnd="@+id/walletAddress" />
+
+        <Button
+            android:text="@string/wallet_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkWallet"
+            android:layout_alignBaseline="@+id/walletAddressText"
+            android:layout_alignBottom="@+id/walletAddressText"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:text="@string/address_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/walletAddress"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:layout_below="@+id/checkWallet"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressInfo"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/walletAddress"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="@string/balance_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/walletBalance"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/addressInfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/walletInfo"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/walletBalance"
+            android:layout_centerHorizontal="true" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/savedAddressList"
+            android:layout_below="@+id/savedWalletAddresses"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp" />
+
+        <TextView
+            android:text="@string/saved_wallet_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/savedWalletAddresses"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/walletInfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+    </RelativeLayout>
+</ScrollView>
